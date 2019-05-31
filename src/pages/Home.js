@@ -29,7 +29,6 @@ export class Home extends Component {
                 {this.state.usedSearch
                     ? this._renderResults()
                     : <small>Use the form to search a movie</small>
-
                 }
             </div>
         )
