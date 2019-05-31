@@ -9,6 +9,7 @@ export class MoviesList extends Component {
     }
 
     render() {
+
         const { movies } = this.props
 
         return (

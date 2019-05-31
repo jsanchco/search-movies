@@ -16,7 +16,6 @@ export class Home extends Component {
         return this.state.results.length === 0
             ? <p>Sorry! Results not found!!</p>
             : <MoviesList movies={this.state.results} />
-
     }
 
     render() {
